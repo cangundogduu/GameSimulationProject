@@ -5,7 +5,7 @@ import Business.Abstract.GameService;
 import Entites.Concrete.Company;
 import Entites.Concrete.Game;
 
-public class GameManager implements GameService,CompanyService{
+public class GameManager extends GameService implements CompanyService{
 
 	@Override
 	public void add(Game game) {

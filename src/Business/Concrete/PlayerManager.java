@@ -1,10 +1,9 @@
 package Business.Concrete;
-
-import Business.Abstract.PlayerService;
+import Business.Abstract.PlayerServicee;
 import Business.Abstract.UserValidationService;
 import Entites.Concrete.Player;
 
-public class PlayerManager implements PlayerService{
+public class PlayerManager extends PlayerServicee{
 	
 	UserValidationService _userValidationService;
 	

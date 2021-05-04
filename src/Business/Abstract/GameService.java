@@ -2,12 +2,24 @@ package Business.Abstract;
 
 import Entites.Concrete.Game;
 
-public interface GameService {
-	
-	void add(Game game);
-	void delete(Game game);
-	void update(Game game);
-	
-	
-	
+public abstract class GameService implements BaseService<Game>{
+
+	@Override
+	public void add(Game entity) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void delete(Game entity) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void update(Game entity) {
+		// TODO Auto-generated method stub
+		
+	}
+
 }
